@@ -175,4 +175,4 @@ def play_game(snake_start, snake_position, apple_position, button_direction, sco
         pygame.display.update()
         clock.tick(50000)
 
-return snake_position, apple_position, score
+        return snake_position, apple_position, score
